@@ -1,0 +1,21 @@
+{
+    "name": "@barcode-bakery/example-aztec",
+    "private": true,
+    "version": "0.0.0",
+    "description": "Example on how to use Barcode Bakery for generating Aztec.",
+    "main": "src/app-aztec.js",
+    "author": {
+        "name": "Jean-Sébastien Goupil",
+        "email": "contact@barcodebakery.com"
+    },
+    "type": "module",
+    "dependencies": {
+        "@barcode-bakery/barcode-aztec": "^1.0.0",
+        "@barcode-bakery/barcode-common": "^2.0.0",
+        "canvas": "^2.7.0"
+    },
+    "devDependencies": {
+        "@tsconfig/node14": "^1.0.0",
+        "@types/node": "^15.0.3"
+    }
+}
